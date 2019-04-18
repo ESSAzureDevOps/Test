@@ -1,0 +1,1 @@
+﻿Get-Service | Where-Object {$_.Status –eq “Running”} | Out-File C:\WIP\ps\test.txt
